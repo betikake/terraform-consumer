@@ -40,7 +40,7 @@ variable "available_memory" {
 }
 
 variable "available_cpu" {
-  default = "1"
+  default = "0.1666"
   type    = string
 }
 
