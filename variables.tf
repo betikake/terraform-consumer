@@ -39,6 +39,11 @@ variable "available_memory" {
   type    = string
 }
 
+variable "available_cpu" {
+  default = "1"
+  type    = string
+}
+
 variable "entry_point" {
   type = string
 }

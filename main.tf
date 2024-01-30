@@ -76,6 +76,7 @@ resource "google_cloudfunctions2_function" "default" {
 
   service_config {
     available_memory               = var.available_memory
+    available_cpu                  = var.available_cpu
     vpc_connector                  = var.vpc_connector
     service_account_email          = var.service_account_email
     max_instance_count             = var.max_instance
